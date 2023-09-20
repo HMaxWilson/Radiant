@@ -1,16 +1,18 @@
 <template>
-  <header class="text-black">
-    <div class="container mx-auto py-4 px-4">
-      <div class="w-full flex col-span-1 sm:col-span-2 lg:col-span-2 justify-between">
+  <header id="start" class="bg-gray-900 text-gray-200 shadow-lg select-none">
+    <div class="container mx-auto">
+      <div class="w-full flex justify-between py-8 px-2">
         <RouterLink to="/">
-          <h2 class="block text-2xl font-medium my-auto">HMaxWilson</h2>
+          <div class="flex">
+            <img src="@/assets/imageedit_10_2356505410.png" alt="" width="32" height="32">
+            <h2 class="pl-2 block text-2xl font-medium my-auto">Radiant_ldn</h2>
+          </div>
         </RouterLink>
-        <nav class="my-auto">
-          <ul class="flex flex-wrap justify-center sm:justify-end text-sm font-medium leading-5">
-            <li class="px-3 py-1 hover:font-bold"><RouterLink to="/">Home</RouterLink></li>
-            <li class="px-3 py-1 hover:font-bold"><RouterLink to="/about">About</RouterLink></li>
-          </ul>
-        </nav>
+        <div class="my-auto">
+          <a href="https://www.instagram.com/radiant_ldn" target="_blank">
+            <img class="grayscale hover:grayscale-0 opacity-70 hover:opacity-100 duration-300" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" />
+          </a>
+        </div>
       </div>
     </div>
   </header>

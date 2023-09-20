@@ -1,18 +1,18 @@
 <template>
-  <footer class="bg-black border-t border-gray-500 text-gray-400">
-    <div class="container mx-auto py-4 px-4">
+  <footer class="bg-black border-t border-gray-500 text-gray-400 select-none">
+    <div class="container mx-auto py-2 px-2">
       <div class="flex flex-wrap items-center justify-between">
-        <div class="flex flex-wrap mx-auto sm:mx-0 text-sm justify-around font-medium leading-5">
-          <RouterLink to="/" class="px-3 py-1 hover:font-bold">Home</RouterLink>
-          <RouterLink to="/about" class="px-3 py-1 hover:font-bold">About</RouterLink>
+        <div class="flex text-sm">
+          <a href="#start">^ Back to top</a>
         </div>
-        <div class="hidden sm:block text-sm">
-          Phone: <a class="opacity-80 hover:opacity-100" href="tel:"></a> <br/>
-          Email: <a class="opacity-80 hover:opacity-100" href="mailto:"></a>
+        <div class="flex text-sm space-x-4">
+          <a href="https://www.instagram.com/radiant_ldn" target="_blank">
+            <img class="grayscale hover:grayscale-0 opacity-70 hover:opacity-100 duration-300" src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" />
+          </a>
         </div>
       </div>
       <div class="text-center py-2">
-        &copy; Template
+        &copy; Radiant_ldn<a class="opacity-60 hover:opacity-100" href="https://www.astronomad.co.uk/" target="_blank"> | AstroNomad x Design</a>
       </div>
     </div>
   </footer>

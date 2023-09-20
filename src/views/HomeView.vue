@@ -1,5 +1,12 @@
+<script setup>
+  import EventPosterColumn from "@/components/Events/EventPosterColumn.vue"
+</script>
+
 <template>
-  <h1 className="text-3xl font-bold underline">
-    This is a home page
-  </h1>
+  <div class="flex flex-wrap w-full justify-between">
+    <EventPosterColumn />
+    <EventPosterColumn />
+    <EventPosterColumn />
+    <EventPosterColumn />
+  </div>
 </template>
