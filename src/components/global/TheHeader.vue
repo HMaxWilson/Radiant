@@ -4,7 +4,7 @@
       <div class="w-full flex justify-between py-8 px-2">
         <RouterLink to="/">
           <div class="flex">
-            <img src="@/assets/imageedit_10_2356505410.png" alt="" width="32" height="32">
+            <img src="../../assets/logo.png" alt="" width="32" height="32">
             <h2 class="pl-2 block text-2xl font-medium my-auto">Radiant_ldn</h2>
           </div>
         </RouterLink>
